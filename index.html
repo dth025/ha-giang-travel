@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khám phá Hà Giang</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-image: url('background1.jpg'); /* Đường dẫn đến ảnh nền */
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: white;
+      padding: 100px 50px; /* Điều chỉnh khoảng cách cho đẹp */
+      text-align: center;
+    }
+
+    header h1, header p {
+      color: #0066cc; /* Màu xanh dương cho tiêu đề và mô tả */
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Tạo lớp phủ mờ */
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3em;
+      z-index: 1; /* Đặt tiêu đề lên trên lớp phủ */
+    }
+
+    p {
+      font-size: 1.2em;
+      z-index: 1;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .destination {
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .destination img {
+      width: 90%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .destination h3 {
+      margin: 10px 20px 5px;
+      color: #333;
+    }
+
+    .destination p {
+      margin: 0 20px 20px;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Khám phá Hà Giang</h1>
+    <p>Những điểm đến không thể bỏ lỡ</p>
+  </header>
+
+  <main>
+    <div class="destination">
+      <h3>Đèo Mã Pí Lèng</h3>
+      <img src="ma-pi-leng.jpg" alt="Đèo Mã Pí Lèng" />
+      <p>Đèo Mã Pí Lèng nằm trên con đường huyết mạch của tỉnh Hà Giang, nối liền các huyện Đồng Văn và Mèo Vạc. Với những dãy núi đá vôi chập chùng, đèo Mã Pí Lèng được xem là một trong những con đèo đẹp nhất Việt Nam. Cảnh vật hùng vĩ, kỳ bí, đặc biệt là con sông Nho Quế uốn lượn dưới chân đèo, tạo nên một bức tranh thiên nhiên tuyệt đẹp.</p>
+    </div>
+
+    <div class="destination">
+      <h3>Phố cổ Đồng Văn</h3>
+      <img src="dong-van.jpg" alt="Phố cổ Đồng Văn" />
+      <p>Phố cổ Đồng Văn là một di tích lịch sử văn hóa nổi bật của vùng cao nguyên đá Đồng Văn. Với hơn 100 năm tuổi, nơi đây giữ gìn được nét kiến trúc cổ kính của các dân tộc H'mông, Hoa và Tày. Du khách đến đây không chỉ được chiêm ngưỡng những ngôi nhà cổ mà còn được trải nghiệm không khí nhộn nhịp của chợ phiên vào mỗi sáng cuối tuần.</p>
+    </div>
+
+    <div class="destination">
+      <h3>Dinh thự vua Mèo</h3>
+      <img src="dinh-vua-meo.jpg" alt="Dinh thự vua Mèo" />
+      <p>Dinh thự vua Mèo tọa lạc tại xã Sà Phìn, huyện Đồng Văn, là một trong những công trình kiến trúc đặc sắc của vùng cao nguyên đá. Đây là nơi sinh sống của gia đình Vương Chí Sình – người đã góp phần xây dựng và phát triển vùng đất này. Dinh thự có sự kết hợp giữa phong cách kiến trúc phương Tây và truyền thống dân tộc, tạo nên một nét độc đáo, khác biệt.</p>
+    </div>
+
+    <div class="destination">
+      <h3>Cột cờ Lũng Cú</h3>
+      <img src="lung-cu.jpg" alt="Cột cờ Lũng Cú" />
+      <p>Cột cờ Lũng Cú là một biểu tượng của sự kiên cường và lòng yêu nước của người dân Việt Nam. Đứng tại đây, bạn có thể chiêm ngưỡng toàn cảnh thiên nhiên hùng vĩ của vùng đất phía Bắc, đồng thời cảm nhận được niềm tự hào khi đứng ở điểm cực Bắc của Tổ quốc. Cột cờ cao 33m, là nơi lưu giữ những ký ức lịch sử của dân tộc.</p>
+    </div>
+
+    <div class="destination">
+      <h3>Ruộng bậc thang Hoàng Su Phì</h3>
+      <img src="hoang-su-phi.jpg" alt="Ruộng bậc thang Hoàng Su Phì" />
+      <p>Ruộng bậc thang Hoàng Su Phì là một trong những cảnh quan thiên nhiên độc đáo và đẹp nhất ở Hà Giang. Những thửa ruộng bậc thang uốn lượn quanh các sườn đồi, được xây dựng bởi bàn tay cần cù của người dân nơi đây. Mùa lúa chín, những thửa ruộng trở thành bức tranh tuyệt mỹ, thu hút rất nhiều du khách đến tham quan và chiêm ngưỡng.</p>
+    </div>
+<div class="destination">
+  <h3>Núi Đôi Quản Bạ</h3>
+  <img src="nui-doi-quan-ba.jpg" alt="Núi Đôi Quản Bạ" />
+  <p>Núi Đôi Quản Bạ là một địa danh nổi tiếng với hai ngọn núi giống như đôi gò bồng đào. Nằm cách trung tâm huyện Quản Bạ khoảng 20 km, núi Đôi đã trở thành biểu tượng của vùng đất Hà Giang. Sở dĩ núi có tên gọi này vì hình dáng đặc biệt của hai ngọn núi giống hệt như đôi gò bồng đào của người phụ nữ. Đây là điểm đến lý tưởng cho những ai yêu thích thiên nhiên hoang sơ và vẻ đẹp kỳ vĩ của đất trời.</p>
+</div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Du lịch Hà Giang</p>
+  </footer>
+
+</body>
+</html>
